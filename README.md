@@ -1,11 +1,11 @@
+*Files to look at:*
+* [richedit.component.ts](./JS/src/app/richedit/richedit.component.ts)
+
 # RichEdit for Angular - How to customize the built-in ribbon
 
 This example is a ready-to-use client Angular application with the DevExpress RichEdit component. The example demonstrates how to modify the built-in ribbon in the RichEdit control. 
 The **ribbon** option allows you to access RichEdit's built-in ribbon. You can get the required tabs and items using the **getTab** and the **getItem** methods respectively. 
 Then, you can add necessary items or remove unnecessary ones using the **insertItem** and **removeItem** methods.
-
-*Files to look at:*
-* [richedit.component.ts](./JS/src/app/richedit/richedit.component.ts)
 
 
 > **Documentation**: [Add RichEdit to an Angular Application](https://docs.devexpress.com/AspNetCore/400373/office-inspired-controls/controls/rich-edit) - (to be corrected)
