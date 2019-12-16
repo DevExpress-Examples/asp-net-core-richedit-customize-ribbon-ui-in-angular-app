@@ -10,8 +10,6 @@ Then, you can add necessary items or remove unnecessary ones using the **insertI
 
 > **Documentation**: [Add RichEdit to an Angular Application](https://docs.devexpress.com/AspNetCore/400373/office-inspired-controls/controls/rich-edit) - (to be corrected)
 
-The [JS](JS) folder contains a client application.
-
 ## Requirements
 * To use RichEdit control in Angular application you should have [Universal, DXperience, or ASP.NET subscription](https://www.devexpress.com/buy/net/).
 * Versions of the devexpress npm packages should be identical (their major and minor versions should be the same).
@@ -29,8 +27,6 @@ The [JS](JS) folder contains a client application.
     ```bash
     ng serve --open
     ```
-
-3. Open ```http://localhost:4200/``` in your browser to see the result.
 
 ## See Also
 Documentation:
