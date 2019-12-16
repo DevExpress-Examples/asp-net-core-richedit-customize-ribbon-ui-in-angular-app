@@ -11,7 +11,7 @@ Then, you can add or remove items using the **insertItem** and **removeItem** me
 > **Documentation**: [Add RichEdit to an Angular Application](https://docs.devexpress.com/AspNetCore/400373/office-inspired-controls/controls/rich-edit) - (to be corrected)
 
 ## Requirements
-* To use RichEdit control in Angular application you should have [Universal, DXperience, or ASP.NET subscription](https://www.devexpress.com/buy/net/).
+* To use RichEdit control in Angular application you should have a [Universal, DXperience, or ASP.NET subscription](https://www.devexpress.com/buy/net/).
 * Versions of the devexpress npm packages should be identical (their major and minor versions should be the same).
 
 ## Quick Start
