@@ -55,7 +55,7 @@ export class RicheditComponent implements AfterViewInit, OnDestroy {
     const newFindTab = options.ribbon.insertTab(new RibbonTab('Find', findTabId, [findElem, replaceElem]), 2);
 
     // add custom item
-    const findInGoogleId = 'FindTabId';
+    const findInGoogleId = 'FindInGoogleId';
     newFindTab.insertItem(new RibbonButtonItem(findInGoogleId, 'Find in Google', { beginGroup: true }));
     options.events.customCommandExecuted = (s, e) => {
       if (e.commandName === findInGoogleId) {
