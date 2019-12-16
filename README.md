@@ -12,6 +12,10 @@ Then, you can add necessary items or remove unnecessary ones using the **insertI
 
 The [JS](JS) folder contains a client application.
 
+## Requirements
+* To use RichEdit control in Angular application you should have [Universal, DXperience, or ASP.NET subscription](https://www.devexpress.com/buy/net/).
+* Versions of the devexpress npm packages should be identical (their major and minor versions should be the same).
+
 ## Quick Start
 
 1. Open the **JS** folder. In the command prompt, download and install npm packages used in the application:
