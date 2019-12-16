@@ -30,16 +30,16 @@ export class RicheditComponent implements AfterViewInit, OnDestroy {
 
     homeTab.removeItem(HomeTabItemId.ChangeStyle);
 
-    // remove element from drop down list
+    // remove element from drop down list if you do not need to remove the entire drop down list (FileTabItemId.Download)
     // fileTab.removeItem(FileTabItemId.DownloadRtf);
     // fileTab.removeItem(FileTabItemId.DownloadTxt);
 
     // allow only download as docx. Create out item from default items
     const downloadDocxItem = fileTab.getItem(FileTabItemId.DownloadDocx) as RibbonSubMenuItem;
-    // const downloadItem = fileTab.getItem(FileTabItemId.Download) as RibbonMenuItem;
-    // fileTab.removeItem(FileTabItemId.Download);
+    const downloadItem = fileTab.getItem(FileTabItemId.Download) as RibbonMenuItem;
+    fileTab.removeItem(FileTabItemId.Download);
     // icons: https://js.devexpress.com/Documentation/Guide/Themes_and_Styles/Icons/
-    //fileTab.insertItem(new RibbonButtonItem(downloadDocxItem.id, downloadItem.text, {icon: downloadItem.icon, showText: true}), 2);
+    fileTab.insertItem(new RibbonButtonItem(downloadDocxItem.id, downloadItem.text, {icon: downloadItem.icon, showText: true}), 2);
 
     // move items to new tab
     const findElem: RibbonItem = homeTab.getItem(HomeTabItemId.Find);
