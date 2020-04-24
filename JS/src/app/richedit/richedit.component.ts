@@ -30,7 +30,7 @@ export class RicheditComponent implements AfterViewInit, OnDestroy {
 
     homeTab.removeItem(HomeTabItemId.ChangeStyle);
 
-    // remove element from drop down list if you do not need to remove the entire drop down list (FileTabItemId.Download)
+    // remove element from drop down list
     // fileTab.removeItem(FileTabItemId.DownloadRtf);
     // fileTab.removeItem(FileTabItemId.DownloadTxt);
 
@@ -66,7 +66,7 @@ export class RicheditComponent implements AfterViewInit, OnDestroy {
         }
       }
     };
-  }
+  }  
 
   ngAfterViewInit(): void {
     const options: Options = createOptions();
