@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T848130)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Rich Text Editor for ASP.NET Core - How to customize the built-in ribbon in an Angular application
+# Rich Text Editor for ASP.NET Core - How to customize the built-in Ribbon UI in an Angular application
 
 This example is a ready-to-use Angular client application that demonstrates how to customize the DevExpress [Rich Text Editor](https://docs.devexpress.com/AspNetCore/400373/office-inspired-controls/controls/rich-edit)'s Ribbon UI.
 
