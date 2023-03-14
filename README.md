@@ -14,7 +14,7 @@ The Ribbon is a tabbed toolbar that groups command items on different tabs accor
 ## Requirements
 
 * To use the Rich Text Editor control in an Angular application, you need to have a [Universal, DXperience, or ASP.NET subscription](https://www.devexpress.com/buy/net/).
-* Versions of the DevExpress npm packages should match.
+* All Devexpress npm packages used in this application should have the same version.
 
 ## Quick Start
 
