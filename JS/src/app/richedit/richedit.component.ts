@@ -27,11 +27,11 @@ export class RicheditComponent implements AfterViewInit, OnDestroy {
 
     homeTab!.removeItem(HomeTabItemId.ChangeStyle);
 
-    // remove element from drop down list
+    // remove an element from a drop-down list
     // fileTab!.removeItem(FileTabItemId.DownloadRtf);
     // fileTab!.removeItem(FileTabItemId.DownloadTxt);
 
-    // allow download in docx format only. Create an item based on the default item options.
+    // create an item based on the default item options to allow users to download documents in docx format only
     const downloadDocxItem = fileTab!.getItem(FileTabItemId.DownloadDocx) as RibbonSubMenuItem;
     const downloadItem = fileTab!.getItem(FileTabItemId.Download) as RibbonMenuItem;
     fileTab!.removeItem(FileTabItemId.Download);
