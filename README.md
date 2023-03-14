@@ -20,7 +20,7 @@ The Ribbon is a tabbed toolbar that groups command items on different tabs accor
 
 Follow the steps below to run this application on your computer:
 
-1. Open the *JS* folder in the command prompt and run the following command to install npm packages used in the application:
+1. Open the *JS* folder in the command prompt and run the following command to install all npm packages used in the application:
 
     ```
     npm install
